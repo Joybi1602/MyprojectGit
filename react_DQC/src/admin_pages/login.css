@@ -1,0 +1,69 @@
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table th, .table td {
+  padding: 0.5rem;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.table td img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 5rem;
+}
+
+.table td button {
+  margin: 0;
+}
+
+
+#bg-img{
+  font-family: 'Roboto', sans-serif;
+  font-size: 100%;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  background: url('../../public/backend/images/bg2.png') no-repeat 0px 0px;
+
+background-size:cover;
+}
+#canchinh{
+  margin-top: 180px;
+}
+.datgoldshop-main h2 {
+color: #761d1f;
+  font-size: 29px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+    text-align: center;
+}
+.datgoldshop-main {
+  border-radius: 10px;
+  width: 40%;
+  margin:5em auto;
+  background:rgba(38, 169, 224, 1);
+  padding: 42px 35px;
+}
+#quennho{
+  color:#761d1f ;
+}
+#quennho a{
+  text-decoration: none;
+  color:#761d1f ;
+}
+.btn{
+  background-color: #761d1f;
+}
+.btn:hover{
+  background-color: #fa6d06;
+}
